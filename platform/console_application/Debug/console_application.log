@@ -1,0 +1,5 @@
+﻿  stdafx.cpp
+  console_application.cpp
+  dllmain.cpp
+     Creating library R:\Projects\common\Debug\console_application.lib and object R:\Projects\common\Debug\console_application.exp
+  console_application.vcxproj -> R:\Projects\common\Debug\console_application.dll

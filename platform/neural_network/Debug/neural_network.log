@@ -1,0 +1,5 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  neural_network.cpp
+     Creating library R:\Projects\common\Debug\neural_network.lib and object R:\Projects\common\Debug\neural_network.exp
+  neural_network.vcxproj -> R:\Projects\common\Debug\neural_network.dll
