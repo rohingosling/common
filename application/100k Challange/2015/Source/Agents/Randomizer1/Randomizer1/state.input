@@ -1,0 +1,16 @@
+Index	Size	Name			Description
+
+0		2		FileID			File identifier.
+2		2		HistoryDepth	Number of historical states stored.
+
+4       4		Offset[t=0]		Last state offset
+8       4       Length          Length of last state.
+12      4		Offset[t=-1]	Last state offset
+16      4       Length          Length of last state.
+20      4		Offset[t=-2]	Last state offset
+24      4       Length          Length of last state.
+.
+.
+.
+N		4		Offset[t=-N]	Last state offset
+N+4     4       Length          Length of last state.

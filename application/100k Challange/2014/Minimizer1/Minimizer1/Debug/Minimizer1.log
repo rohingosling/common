@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Minimizer1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  stdafx.cpp
+  Minimizer1.cpp
+  Minimizer1.vcxproj -> R:\Projects\100k Challange\2014\Minimizer1\Debug\OpenGLTemplate.exe

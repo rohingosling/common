@@ -1,0 +1,11 @@
+CMakeCache.txt
+CMakeFiles
+*.cmake
+install_manifest.txt
+output/
+bin/
+*.sdf
+*.suo
+Debug/
+Testing/
+Makefile

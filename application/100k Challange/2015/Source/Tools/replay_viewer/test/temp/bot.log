@@ -1,0 +1,850 @@
+R:\Projects\100k Challange\2015\Source\2015_spaceInvaders_testharness_master\SpaceInvadersDuel\bin\Debug\player1>BasicBot.exe "output" 
+[BOT]	Game state:
+[BOT]		Round Number: 0
+[BOT]		Player 1 Kills: 0
+[BOT]		Player 1 Lives: 3
+[BOT]		Player 1 Missiles: 0/1
+[BOT]		Player 2 Kills: 0
+[BOT]		Player 2 Lives: 3
+[BOT]		Player 2 Missiles: 0/1
+[BOT]	Map:
+###################
+# Player 2        #
+# Round:   0      #
+# Kills:   0      #
+# Lives: 3        #
+# Missiles: 0/1   #
+###################
+#                 #
+#       VVV       #
+# ---         --- #
+# ---         --- #
+# ---         --- #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+# ---         --- #
+# ---         --- #
+# ---         --- #
+#       AAA       #
+#                 #
+###################
+# Missiles: 0/1   #
+# Lives: 3        #
+# Kills:   0      #
+# Round:   0      #
+# Player 1        #
+###################
+[BOT]	Command: MoveLeft
+[BOT]	Bot finished in 880 ms.
+[GAME]	Bot Player 1 finished in 1472 ms.
+R:\Projects\100k Challange\2015\Source\2015_spaceInvaders_testharness_master\SpaceInvadersDuel\bin\Debug\player1>BasicBot.exe "output" 
+[BOT]	Game state:
+[BOT]		Round Number: 1
+[BOT]		Player 1 Kills: 0
+[BOT]		Player 1 Lives: 3
+[BOT]		Player 1 Missiles: 0/1
+[BOT]		Player 2 Kills: 0
+[BOT]		Player 2 Lives: 2
+[BOT]		Player 2 Missiles: 0/1
+[BOT]	Map:
+###################
+# Player 2        #
+# Round:   1      #
+# Kills:   0      #
+# Lives: 2        #
+# Missiles: 0/1   #
+###################
+#                 #
+#       VVV       #
+# ---   ---   --- #
+# ---   ---   --- #
+# ---   ---   --- #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+#         x  x  x #
+#                 #
+#         x  x  x #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+# ---         --- #
+# ---         --- #
+# ---         --- #
+#      AAA        #
+#                 #
+###################
+# Missiles: 0/1   #
+# Lives: 3        #
+# Kills:   0      #
+# Round:   1      #
+# Player 1        #
+###################
+[BOT]	Command: Nothing
+[BOT]	Bot finished in 669 ms.
+[GAME]	Bot Player 1 finished in 797 ms.
+R:\Projects\100k Challange\2015\Source\2015_spaceInvaders_testharness_master\SpaceInvadersDuel\bin\Debug\player1>BasicBot.exe "output" 
+[BOT]	Game state:
+[BOT]		Round Number: 2
+[BOT]		Player 1 Kills: 0
+[BOT]		Player 1 Lives: 3
+[BOT]		Player 1 Missiles: 0/1
+[BOT]		Player 2 Kills: 0
+[BOT]		Player 2 Lives: 2
+[BOT]		Player 2 Missiles: 0/1
+[BOT]	Map:
+###################
+# Player 2        #
+# Round:   2      #
+# Kills:   0      #
+# Lives: 2        #
+# Missiles: 0/1   #
+###################
+#                 #
+#        VVV      #
+# ---   ---   --- #
+# ---   ---   --- #
+# ---   ---   --- #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+#        x  x  x  #
+#                 #
+#        x  x  x  #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+# ---         --- #
+# ---         --- #
+# ---         --- #
+#      AAA        #
+#                 #
+###################
+# Missiles: 0/1   #
+# Lives: 3        #
+# Kills:   0      #
+# Round:   2      #
+# Player 1        #
+###################
+[BOT]	Command: BuildAlienFactory
+[BOT]	Bot finished in 553 ms.
+[GAME]	Bot Player 1 finished in 702 ms.
+R:\Projects\100k Challange\2015\Source\2015_spaceInvaders_testharness_master\SpaceInvadersDuel\bin\Debug\player1>BasicBot.exe "output" 
+[BOT]	Game state:
+[BOT]		Round Number: 3
+[BOT]		Player 1 Kills: 0
+[BOT]		Player 1 Lives: 2
+[BOT]		Player 1 Missiles: 0/1
+[BOT]		Player 2 Kills: 0
+[BOT]		Player 2 Lives: 1
+[BOT]		Player 2 Missiles: 0/2
+[BOT]	Map:
+###################
+# Player 2        #
+# Round:   3      #
+# Kills:   0      #
+# Lives: 1        #
+# Missiles: 0/2   #
+###################
+#        MMM      #
+#        VVV      #
+# ---   ---   --- #
+# ---   ---   --- #
+# ---   ---   --- #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+#       x  x  x   #
+#                 #
+#       x  x  x   #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+# ---         --- #
+# ---         --- #
+# ---         --- #
+#      AAA        #
+#      XXX        #
+###################
+# Missiles: 0/1   #
+# Lives: 2        #
+# Kills:   0      #
+# Round:   3      #
+# Player 1        #
+###################
+[BOT]	Command: BuildShield
+[BOT]	Bot finished in 608 ms.
+[GAME]	Bot Player 1 finished in 800 ms.
+R:\Projects\100k Challange\2015\Source\2015_spaceInvaders_testharness_master\SpaceInvadersDuel\bin\Debug\player1>BasicBot.exe "output" 
+[BOT]	Game state:
+[BOT]		Round Number: 4
+[BOT]		Player 1 Kills: 0
+[BOT]		Player 1 Lives: 1
+[BOT]		Player 1 Missiles: 0/1
+[BOT]		Player 2 Kills: 0
+[BOT]		Player 2 Lives: 0
+[BOT]		Player 2 Missiles: 0/2
+[BOT]	Map:
+###################
+# Player 2        #
+# Round:   4      #
+# Kills:   0      #
+# Lives: 0        #
+# Missiles: 0/2   #
+###################
+#        MMM      #
+#        VVV      #
+# ---   ----  --- #
+# ---   ----  --- #
+# ---   ----  --- #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+#      x  x  x    #
+#                 #
+#      x  x  x    #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+# ---  ---    --- #
+# ---  ---    --- #
+# ---  ---    --- #
+#      AAA        #
+#      XXX        #
+###################
+# Missiles: 0/1   #
+# Lives: 1        #
+# Kills:   0      #
+# Round:   4      #
+# Player 1        #
+###################
+[BOT]	Command: BuildAlienFactory
+[BOT]	Bot finished in 723 ms.
+[GAME]	Bot Player 1 finished in 892 ms.
+R:\Projects\100k Challange\2015\Source\2015_spaceInvaders_testharness_master\SpaceInvadersDuel\bin\Debug\player1>BasicBot.exe "output" 
+[BOT]	Game state:
+[BOT]		Round Number: 5
+[BOT]		Player 1 Kills: 0
+[BOT]		Player 1 Lives: 1
+[BOT]		Player 1 Missiles: 0/1
+[BOT]		Player 2 Kills: 0
+[BOT]		Player 2 Lives: 0
+[BOT]		Player 2 Missiles: 0/2
+[BOT]	Map:
+###################
+# Player 2        #
+# Round:   5      #
+# Kills:   0      #
+# Lives: 0        #
+# Missiles: 0/2   #
+###################
+#        MMM      #
+#        VVV      #
+# ---   ----  --- #
+# ---   ----  --- #
+# ---   ----  --- #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+#     x  x  x     #
+#                 #
+#     x  x  x     #
+#                 #
+#                 #
+#                 #
+#                 #
+#                 #
+# ---  ---    --- #
+# ---  ---    --- #
+# ---  ---    --- #
+#      AAA        #
+#      XXX        #
+###################
+# Missiles: 0/1   #
+# Lives: 1        #
+# Kills:   0      #
+# Round:   5      #
+# Player 1        #
+###################
+[BOT]	Command: Shoot
+[BOT]	Bot finished in 549 ms.
+[GAME]	Bot Player 1 finished in 737 ms.
+R:\Projects\100k Challange\2015\Source\2015_spaceInvaders_testharness_master\SpaceInvadersDuel\bin\Debug\player1>BasicBot.exe "output" 
+[BOT]	Game state:
+[BOT]		Round Number: 6
+[BOT]		Player 1 Kills: 0
+[BOT]		Player 1 Lives: 1
+[BOT]		Player 1 Missiles: 0/1
+[BOT]		Player 2 Kills: 0
+[BOT]		Player 2 Lives: 0
+[BOT]		Player 2 Missiles: 0/2
+[BOT]	Map:
+###################
+# Player 2        #
+# Round:   6      #
+# Kills:   0      #
+# Lives: 0        #
+# Missiles: 0/2   #
+###################
+#        MMM      #
+#        VVV      #
+# ---   ----  --- #
+# ---   ----  --- #
+# ---   ----  --- #
+#                 #
+#                 #
+#                 #
+#                 #
+#          |      #
+#    x  x  x      #
+#                 #
+#    x  x  x      #
+#          |      #
+#                 #
+#                 #
+#                 #
+#                 #
+# ---  ---    --- #
+# ---  ---    --- #
+# ---  - -    --- #
+#      AAA        #
+#      XXX        #
+###################
+# Missiles: 0/1   #
+# Lives: 1        #
+# Kills:   0      #
+# Round:   6      #
+# Player 1        #
+###################
+[BOT]	Command: Nothing
+[BOT]	Bot finished in 671 ms.
+[GAME]	Bot Player 1 finished in 823 ms.
+R:\Projects\100k Challange\2015\Source\2015_spaceInvaders_testharness_master\SpaceInvadersDuel\bin\Debug\player1>BasicBot.exe "output" 
+[BOT]	Game state:
+[BOT]		Round Number: 7
+[BOT]		Player 1 Kills: 0
+[BOT]		Player 1 Lives: 1
+[BOT]		Player 1 Missiles: 0/1
+[BOT]		Player 2 Kills: 0
+[BOT]		Player 2 Lives: 0
+[BOT]		Player 2 Missiles: 0/2
+[BOT]	Map:
+###################
+# Player 2        #
+# Round:   7      #
+# Kills:   0      #
+# Lives: 0        #
+# Missiles: 0/2   #
+###################
+#        MMM      #
+#       VVV       #
+# ---   ----  --- #
+# ---   ----  --- #
+# ---   ----  --- #
+#                 #
+#                 #
+#                 #
+#          |      #
+#                 #
+#   x  x  x       #
+#                 #
+#   x  x  x       #
+#                 #
+#          |      #
+#                 #
+#                 #
+#                 #
+# ---  ---    --- #
+# ---  ---    --- #
+# ---  - -    --- #
+#      AAA        #
+#      XXX        #
+###################
+# Missiles: 0/1   #
+# Lives: 1        #
+# Kills:   0      #
+# Round:   7      #
+# Player 1        #
+###################
+[BOT]	Command: BuildShield
+[BOT]	Bot finished in 647 ms.
+[GAME]	Bot Player 1 finished in 799 ms.
+R:\Projects\100k Challange\2015\Source\2015_spaceInvaders_testharness_master\SpaceInvadersDuel\bin\Debug\player1>BasicBot.exe "output" 
+[BOT]	Game state:
+[BOT]		Round Number: 8
+[BOT]		Player 1 Kills: 0
+[BOT]		Player 1 Lives: 0
+[BOT]		Player 1 Missiles: 0/1
+[BOT]		Player 2 Kills: 0
+[BOT]		Player 2 Lives: 0
+[BOT]		Player 2 Missiles: 0/2
+[BOT]	Map:
+###################
+# Player 2        #
+# Round:   8      #
+# Kills:   0      #
+# Lives: 0        #
+# Missiles: 0/2   #
+###################
+#        MMM      #
+#       VVV       #
+# ---   ----  --- #
+# ---   ----  --- #
+# ---   ----  --- #
+#                 #
+#                 #
+#          |      #
+#                 #
+#                 #
+#  x  x  x        #
+#                 #
+#  x  x  x        #
+#                 #
+#                 #
+#          |      #
+#                 #
+#                 #
+# ---  ---    --- #
+# ---  ---    --- #
+# ---  ---    --- #
+#      AAA        #
+#      XXX        #
+###################
+# Missiles: 0/1   #
+# Lives: 0        #
+# Kills:   0      #
+# Round:   8      #
+# Player 1        #
+###################
+[BOT]	Command: BuildMissileController
+[BOT]	Bot finished in 564 ms.
+[GAME]	Bot Player 1 finished in 760 ms.
+R:\Projects\100k Challange\2015\Source\2015_spaceInvaders_testharness_master\SpaceInvadersDuel\bin\Debug\player1>BasicBot.exe "output" 
+[BOT]	Game state:
+[BOT]		Round Number: 9
+[BOT]		Player 1 Kills: 0
+[BOT]		Player 1 Lives: 0
+[BOT]		Player 1 Missiles: 0/1
+[BOT]		Player 2 Kills: 0
+[BOT]		Player 2 Lives: 0
+[BOT]		Player 2 Missiles: 0/2
+[BOT]	Map:
+###################
+# Player 2        #
+# Round:   9      #
+# Kills:   0      #
+# Lives: 0        #
+# Missiles: 0/2   #
+###################
+#        MMM      #
+#        VVV      #
+# ---   ----  --- #
+# ---   ----  --- #
+# ---   ----  --- #
+#                 #
+#          |      #
+#                 #
+#                 #
+#                 #
+# x  x  x         #
+#                 #
+# x  x  x         #
+#                 #
+#                 #
+#                 #
+#          |      #
+#                 #
+# ---  ---    --- #
+# ---  ---    --- #
+# ---  ---    --- #
+#      AAA        #
+#      XXX        #
+###################
+# Missiles: 0/1   #
+# Lives: 0        #
+# Kills:   0      #
+# Round:   9      #
+# Player 1        #
+###################
+[BOT]	Command: BuildShield
+[BOT]	Bot finished in 659 ms.
+[GAME]	Bot Player 1 finished in 823 ms.
+R:\Projects\100k Challange\2015\Source\2015_spaceInvaders_testharness_master\SpaceInvadersDuel\bin\Debug\player1>BasicBot.exe "output" 
+[BOT]	Game state:
+[BOT]		Round Number: 10
+[BOT]		Player 1 Kills: 0
+[BOT]		Player 1 Lives: 0
+[BOT]		Player 1 Missiles: 0/1
+[BOT]		Player 2 Kills: 0
+[BOT]		Player 2 Lives: 0
+[BOT]		Player 2 Missiles: 0/2
+[BOT]	Map:
+###################
+# Player 2        #
+# Round:  10      #
+# Kills:   0      #
+# Lives: 0        #
+# Missiles: 0/2   #
+###################
+#        MMM      #
+#         VVV     #
+# ---   ----  --- #
+# ---   ----  --- #
+# ---   ----  --- #
+#          |      #
+#                 #
+#                 #
+#                 #
+#                 #
+#x  x  x          #
+#                 #
+#x  x  x          #
+#                 #
+#                 #
+#                 #
+#                 #
+#          |      #
+# ---  ---    --- #
+# ---  ---    --- #
+# ---  ---    --- #
+#      AAA        #
+#      XXX        #
+###################
+# Missiles: 0/1   #
+# Lives: 0        #
+# Kills:   0      #
+# Round:  10      #
+# Player 1        #
+###################
+[BOT]	Command: BuildShield
+[BOT]	Bot finished in 700 ms.
+[GAME]	Bot Player 1 finished in 862 ms.
+R:\Projects\100k Challange\2015\Source\2015_spaceInvaders_testharness_master\SpaceInvadersDuel\bin\Debug\player1>BasicBot.exe "output" 
+[BOT]	Game state:
+[BOT]		Round Number: 11
+[BOT]		Player 1 Kills: 0
+[BOT]		Player 1 Lives: 0
+[BOT]		Player 1 Missiles: 0/1
+[BOT]		Player 2 Kills: 0
+[BOT]		Player 2 Lives: 0
+[BOT]		Player 2 Missiles: 0/2
+[BOT]	Map:
+###################
+# Player 2        #
+# Round:  11      #
+# Kills:   0      #
+# Lives: 0        #
+# Missiles: 0/2   #
+###################
+#        MMM      #
+#         VVV     #
+# ---   ----  --- #
+# ---   ----  --- #
+# ---   ---   --- #
+#                 #
+#                 #
+#                 #
+#                 #
+#x  x  x          #
+#                 #
+#                 #
+#                 #
+#x  x  x          #
+#                 #
+#                 #
+#                 #
+#                 #
+# ---  --- |  --- #
+# ---  ---    --- #
+# ---  ---    --- #
+#      AAA        #
+#      XXX        #
+###################
+# Missiles: 0/1   #
+# Lives: 0        #
+# Kills:   0      #
+# Round:  11      #
+# Player 1        #
+###################
+[BOT]	Command: BuildAlienFactory
+[BOT]	Bot finished in 528 ms.
+[GAME]	Bot Player 1 finished in 688 ms.
+R:\Projects\100k Challange\2015\Source\2015_spaceInvaders_testharness_master\SpaceInvadersDuel\bin\Debug\player1>BasicBot.exe "output" 
+[BOT]	Game state:
+[BOT]		Round Number: 12
+[BOT]		Player 1 Kills: 0
+[BOT]		Player 1 Lives: 0
+[BOT]		Player 1 Missiles: 0/1
+[BOT]		Player 2 Kills: 0
+[BOT]		Player 2 Lives: 0
+[BOT]		Player 2 Missiles: 0/2
+[BOT]	Map:
+###################
+# Player 2        #
+# Round:  12      #
+# Kills:   0      #
+# Lives: 0        #
+# Missiles: 0/2   #
+###################
+#        MMM      #
+#         VVV     #
+# ---   ----  --- #
+# ---   ----  --- #
+# ---   ---   --- #
+#                 #
+#                 #
+#                 #
+# |               #
+# x  x  x         #
+#                 #
+#                 #
+#                 #
+# x  x  x         #
+# |               #
+#                 #
+#                 #
+#                 #
+# ---  ---    --- #
+# ---  --- |  --- #
+# ---  ---    --- #
+#      AAA        #
+#      XXX        #
+###################
+# Missiles: 0/1   #
+# Lives: 0        #
+# Kills:   0      #
+# Round:  12      #
+# Player 1        #
+###################
+[BOT]	Command: BuildMissileController
+[BOT]	Bot finished in 703 ms.
+[GAME]	Bot Player 1 finished in 859 ms.
+R:\Projects\100k Challange\2015\Source\2015_spaceInvaders_testharness_master\SpaceInvadersDuel\bin\Debug\player1>BasicBot.exe "output" 
+[BOT]	Game state:
+[BOT]		Round Number: 13
+[BOT]		Player 1 Kills: 0
+[BOT]		Player 1 Lives: 0
+[BOT]		Player 1 Missiles: 0/1
+[BOT]		Player 2 Kills: 0
+[BOT]		Player 2 Lives: 0
+[BOT]		Player 2 Missiles: 0/2
+[BOT]	Map:
+###################
+# Player 2        #
+# Round:  13      #
+# Kills:   0      #
+# Lives: 0        #
+# Missiles: 0/2   #
+###################
+#        MMM      #
+#         VVV     #
+# ---   ----  --- #
+# ---   ----  --- #
+# ---   ---   --- #
+#                 #
+#                 #
+# |               #
+#                 #
+#  x  x  x        #
+#                 #
+#                 #
+#                 #
+#  x  x  x        #
+#                 #
+# |               #
+#                 #
+#                 #
+# ---  ---    --- #
+# ---  ---    --- #
+# ---  --- |  --- #
+#      AAA        #
+#      XXX        #
+###################
+# Missiles: 0/1   #
+# Lives: 0        #
+# Kills:   0      #
+# Round:  13      #
+# Player 1        #
+###################
+[BOT]	Command: BuildMissileController
+[BOT]	Bot finished in 928 ms.
+[GAME]	Bot Player 1 finished in 1088 ms.
+R:\Projects\100k Challange\2015\Source\2015_spaceInvaders_testharness_master\SpaceInvadersDuel\bin\Debug\player1>BasicBot.exe "output" 
+[BOT]	Game state:
+[BOT]		Round Number: 14
+[BOT]		Player 1 Kills: 0
+[BOT]		Player 1 Lives: 0
+[BOT]		Player 1 Missiles: 0/1
+[BOT]		Player 2 Kills: 0
+[BOT]		Player 2 Lives: 0
+[BOT]		Player 2 Missiles: 0/2
+[BOT]	Map:
+###################
+# Player 2        #
+# Round:  14      #
+# Kills:   0      #
+# Lives: 0        #
+# Missiles: 0/2   #
+###################
+#        MMM      #
+#         VVV     #
+# ---   ----  --- #
+# ---   ----  --- #
+# ---   ---   --- #
+#                 #
+# |               #
+#                 #
+#                 #
+#   x  x  x       #
+#                 #
+#                 #
+#                 #
+#   x  x  x       #
+#                 #
+#                 #
+# |               #
+#                 #
+# ---  ---    --- #
+# ---  ---    --- #
+# ---  ---    --- #
+#      AAA |      #
+#      XXX        #
+###################
+# Missiles: 0/1   #
+# Lives: 0        #
+# Kills:   0      #
+# Round:  14      #
+# Player 1        #
+###################
+[BOT]	Command: Nothing
+[BOT]	Bot finished in 655 ms.
+[GAME]	Bot Player 1 finished in 818 ms.
+R:\Projects\100k Challange\2015\Source\2015_spaceInvaders_testharness_master\SpaceInvadersDuel\bin\Debug\player1>BasicBot.exe "output" 
+[BOT]	Game state:
+[BOT]		Round Number: 15
+[BOT]		Player 1 Kills: 0
+[BOT]		Player 1 Lives: 0
+[BOT]		Player 1 Missiles: 0/1
+[BOT]		Player 2 Kills: 0
+[BOT]		Player 2 Lives: 0
+[BOT]		Player 2 Missiles: 0/2
+[BOT]	Map:
+###################
+# Player 2        #
+# Round:  15      #
+# Kills:   0      #
+# Lives: 0        #
+# Missiles: 0/2   #
+###################
+#        MMM      #
+#         VVV     #
+# ---   ----  --- #
+# ---   ----  --- #
+# ---   ---   --- #
+# |               #
+#                 #
+#                 #
+#                 #
+#    x  x  x      #
+#                 #
+#                 #
+#                 #
+#    x  x  x      #
+#                 #
+#                 #
+#                 #
+# |               #
+# ---  ---    --- #
+# ---  ---    --- #
+# ---  ---    --- #
+#      AAA        #
+#      XXX |      #
+###################
+# Missiles: 0/1   #
+# Lives: 0        #
+# Kills:   0      #
+# Round:  15      #
+# Player 1        #
+###################
+[BOT]	Command: MoveRight
+[BOT]	Bot finished in 682 ms.
+[GAME]	Bot Player 1 finished in 833 ms.
+R:\Projects\100k Challange\2015\Source\2015_spaceInvaders_testharness_master\SpaceInvadersDuel\bin\Debug\player1>BasicBot.exe "output" 
+[BOT]	Game state:
+[BOT]		Round Number: 16
+[BOT]		Player 1 Kills: 0
+[BOT]		Player 1 Lives: 0
+[BOT]		Player 1 Missiles: 0/1
+[BOT]		Player 2 Kills: 0
+[BOT]		Player 2 Lives: 0
+[BOT]		Player 2 Missiles: 0/2
+[BOT]	Map:
+###################
+# Player 2        #
+# Round:  16      #
+# Kills:   0      #
+# Lives: 0        #
+# Missiles: 0/2   #
+###################
+#        MMM      #
+#         VVV     #
+# ---   ----  --- #
+# ---   ----  --- #
+#  --   ---   --- #
+#                 #
+#                 #
+#                 #
+#                 #
+#     x  x  x     #
+#                 #
+#                 #
+#                 #
+#     x  x  x     #
+#                 #
+#                 #
+#                 #
+#                 #
+#  --  ---    --- #
+# ---  ---    --- #
+# ---  ---    --- #
+#       AAA       #
+#      XXX        #
+###################
+# Missiles: 0/1   #
+# Lives: 0        #
+# Kills:   0      #
+# Round:  16      #
+# Player 1        #
+###################
+[BOT]	Command: BuildMissileController
+[BOT]	Bot finished in 992 ms.
+[GAME]	Bot Player 1 finished in 1165 ms.

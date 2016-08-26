@@ -1,0 +1,60 @@
+﻿
+  ┌─────────────────┐ --------------------
+22│                 │ Player      : 2 
+21│                 │ Score       : 0 
+20│ □□□         □□□ │ Projectiles : 1/1
+19│ □□□         □□□ │ Lives       : 2
+18│ □□□     ▼   □□□ │ --------------------
+17│                 │ V*(s)       : 0
+16│                 │ Count(S)    : 10000
+15│                 │ --------------------
+14│                 │ 
+13│         •       │
+12│         ▀  ▀  ▀ │ Max(t) = 200 
+11├─────────────────┤ t      = 4
+10│         ▄  ▄  ▄ │
+ 9│                 │
+ 8│         •       │
+ 7│                 │ --------------------
+ 6│                 │ Player      : 1
+ 5│                 │ Score       : 0
+ 4│ □□□         □□□ │ Projectiles : 1/1
+ 3│ □□□         □□□ │ Lives       : 0
+ 2│ □□□    ▲    □□□ │ --------------------
+ 1│       ■█■       │ V*(s)       : 0
+ 0│ ░▄░         ░▲░ │ Count(S)    : 10000 
+  └─────────────────┘ --------------------
+   01234567890123456
+             1111111 
+
+ Player 1 - Markov Probabilities
+ 
+ P ( NOP                       ) = 0.000  
+ P ( LEFT                      ) = 0.000
+ P ( RIGHT                     ) = 0.000 
+ P ( FIRE                      ) = 0.000
+ P ( BUILD[DRONE FACTORY]      ) = 0.000
+ P ( BUILD[PROJECTILE FACTORY] ) = 0.000 
+
+----------------------------------------------
+Entities
+----------------------------------------------
+ID Name                               Count
+-- ---------------------------------- --------
+ 0 NULL                               0000                               
+ 1 Agent1.Ship                        1
+ 2 Agent1.Ship.Projectile             1
+ 3 Agent1.Drone                       3
+ 4 Agent1.Drone.Projectile            2
+ 5 Agent1.Structure.Shield            2
+ 6 Agent1.Structure.DroneFactory      1
+ 7 Agent1.Structure.ProjectileFactory 1
+ 8 Agent2.Ship                        1
+ 9 Agent2.Ship.Projectile             1
+10 Agent2.Drone                       3
+11 Agent2.Drone.Projectile            2
+12 Agent2.Structure.Shield            2
+13 Agent2.Structure.DroneFactory      0
+14 Agent2.Structure.ProjectileFactory 0
+
+----------------------------------------------

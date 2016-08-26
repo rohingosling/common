@@ -1,0 +1,30 @@
+﻿Build started 2015-06-11 11:46:47 PM.
+     1>Project "R:\Projects\100k Challange\2014\Randomizer\Randomizer\Randomizer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\Randomizer.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Randomizer.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AlphaBetaGameBase.cpp AlphaBetaGameEngine.cpp AlphaBetaGameGrid.cpp AlphaBetaGameUnit.cpp ConsoleApplication.cpp Main.cpp StaticUtility.cpp
+         AlphaBetaGameBase.cpp
+         AlphaBetaGameEngine.cpp
+         AlphaBetaGameGrid.cpp
+         AlphaBetaGameUnit.cpp
+         ConsoleApplication.cpp
+         Main.cpp
+         StaticUtility.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"R:\Projects\100k Challange\2014\Randomizer\Release\Randomizer.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"R:\Projects\100k Challange\2014\Randomizer\Release\Randomizer.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"R:\Projects\100k Challange\2014\Randomizer\Release\Randomizer.lib" /MACHINE:X86 /SAFESEH Release\AlphaBetaGameEngine.obj
+         Release\AlphaBetaGameUnit.obj
+         Release\AlphaBetaGameBase.obj
+         Release\AlphaBetaGameGrid.obj
+         Release\ConsoleApplication.obj
+         Release\Main.obj
+         Release\StaticUtility.obj
+         Release\stdafx.obj
+         Generating code
+         Finished generating code
+         Randomizer.vcxproj -> R:\Projects\100k Challange\2014\Randomizer\Release\Randomizer.exe
+     1>Done Building Project "R:\Projects\100k Challange\2014\Randomizer\Randomizer\Randomizer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.68

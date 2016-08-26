@@ -1,0 +1,871 @@
+[GAME] : Match started
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 10, 2
+[GAME] : Player botB has 0 points
+[TURN] : Moved to 10, 2
+[TURN] : 1 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botA at 10, 14
+[GAME] : Player botA has 1 points
+[TURN] : Moved to 10, 14
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 10, 1
+[GAME] : Player botB has 0 points
+[TURN] : Moved to 10, 1
+[TURN] : 1 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 10, 15
+[GAME] : Player botA has 1 points
+[TURN] : Moved to 10, 15
+[TURN] : 2 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 10, 0
+[GAME] : Player botB has 0 points
+[TURN] : Moved to 10, 0
+[TURN] : 3 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 10, 14
+[GAME] : Player botA has 1 points
+[TURN] : Moved to 10, 14
+[TURN] : 4 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 10, 1
+[GAME] : Player botB has 0 points
+[TURN] : Moved to 10, 1
+[TURN] : 5 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botA at 10, 13
+[GAME] : Player botA has 2 points
+[TURN] : Moved to 10, 13
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 10, 2
+[GAME] : Player botB has 0 points
+[TURN] : Moved to 10, 2
+[TURN] : 1 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 10, 14
+[GAME] : Player botA has 2 points
+[TURN] : Moved to 10, 14
+[TURN] : 2 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 10, 3
+[GAME] : Player botB has 0 points
+[TURN] : Moved to 10, 3
+[TURN] : 3 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botA at 11, 14
+[GAME] : Player botA has 3 points
+[TURN] : Moved to 11, 14
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 10, 2
+[GAME] : Player botB has 0 points
+[TURN] : Moved to 10, 2
+[TURN] : 1 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botA at 12, 14
+[GAME] : Player botA has 4 points
+[TURN] : Moved to 12, 14
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 10, 3
+[GAME] : Player botB has 0 points
+[TURN] : Moved to 10, 3
+[TURN] : 1 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botA at 13, 14
+[GAME] : Player botA has 5 points
+[TURN] : Moved to 13, 14
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 10, 2
+[GAME] : Player botB has 0 points
+[TURN] : Moved to 10, 2
+[TURN] : 1 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botA at 14, 14
+[GAME] : Player botA has 6 points
+[TURN] : Moved to 14, 14
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 10, 1
+[GAME] : Player botB has 0 points
+[TURN] : Moved to 10, 1
+[TURN] : 1 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botA at 14, 13
+[GAME] : Player botA has 7 points
+[TURN] : Moved to 14, 13
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 10, 2
+[GAME] : Player botB has 0 points
+[TURN] : Moved to 10, 2
+[TURN] : 1 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 14, 14
+[GAME] : Player botA has 7 points
+[TURN] : Moved to 14, 14
+[TURN] : 2 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 10, 3
+[GAME] : Player botB has 0 points
+[TURN] : Moved to 10, 3
+[TURN] : 3 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botA at 15, 14
+[GAME] : Player botA has 8 points
+[TURN] : Moved to 15, 14
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botB at 10, 4
+[GAME] : Player botB has 1 points
+[TURN] : Moved to 10, 4
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botA at 16, 14
+[GAME] : Player botA has 9 points
+[TURN] : Moved to 16, 14
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botB at 11, 4
+[GAME] : Player botB has 2 points
+[TURN] : Moved to 11, 4
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botA at 16, 13
+[GAME] : Player botA has 10 points
+[TURN] : Moved to 16, 13
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botB at 12, 4
+[GAME] : Player botB has 3 points
+[TURN] : Moved to 12, 4
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botA at 16, 12
+[GAME] : Player botA has 11 points
+[TURN] : Moved to 16, 12
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 11, 4
+[GAME] : Player botB has 3 points
+[TURN] : Moved to 11, 4
+[TURN] : 1 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botA at 16, 11
+[GAME] : Player botA has 12 points
+[TURN] : Moved to 16, 11
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 10, 4
+[GAME] : Player botB has 3 points
+[TURN] : Moved to 10, 4
+[TURN] : 1 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 16, 12
+[GAME] : Player botA has 12 points
+[TURN] : Moved to 16, 12
+[TURN] : 2 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 11, 4
+[GAME] : Player botB has 3 points
+[TURN] : Moved to 11, 4
+[TURN] : 3 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 16, 11
+[GAME] : Player botA has 12 points
+[TURN] : Moved to 16, 11
+[TURN] : 4 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 12, 4
+[GAME] : Player botB has 3 points
+[TURN] : Moved to 12, 4
+[TURN] : 5 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 16, 12
+[GAME] : Player botA has 12 points
+[TURN] : Moved to 16, 12
+[TURN] : 6 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 11, 4
+[GAME] : Player botB has 3 points
+[TURN] : Moved to 11, 4
+[TURN] : 7 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botA at 17, 12
+[GAME] : Player botA has 13 points
+[TURN] : Moved to 17, 12
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 12, 4
+[GAME] : Player botB has 3 points
+[TURN] : Moved to 12, 4
+[TURN] : 1 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botA at 18, 12
+[GAME] : Player botA has 14 points
+[TURN] : Moved to 18, 12
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 11, 4
+[GAME] : Player botB has 3 points
+[TURN] : Moved to 11, 4
+[TURN] : 1 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botA at 18, 11
+[GAME] : Player botA has 15 points
+[TURN] : Moved to 18, 11
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 12, 4
+[GAME] : Player botB has 3 points
+[TURN] : Moved to 12, 4
+[TURN] : 1 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 18, 12
+[GAME] : Player botA has 15 points
+[TURN] : Moved to 18, 12
+[TURN] : 2 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 11, 4
+[GAME] : Player botB has 3 points
+[TURN] : Moved to 11, 4
+[TURN] : 3 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 17, 12
+[GAME] : Player botA has 15 points
+[TURN] : Moved to 17, 12
+[TURN] : 4 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 10, 4
+[GAME] : Player botB has 3 points
+[TURN] : Moved to 10, 4
+[TURN] : 5 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 16, 12
+[GAME] : Player botA has 15 points
+[TURN] : Moved to 16, 12
+[TURN] : 6 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botB at 10, 5
+[GAME] : Player botB has 4 points
+[TURN] : Moved to 10, 5
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 17, 12
+[GAME] : Player botA has 15 points
+[TURN] : Moved to 17, 12
+[TURN] : 1 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botB at 10, 6
+[GAME] : Player botB has 5 points
+[TURN] : Moved to 10, 6
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 18, 12
+[GAME] : Player botA has 15 points
+[TURN] : Moved to 18, 12
+[TURN] : 1 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botB at 9, 6
+[GAME] : Player botB has 6 points
+[TURN] : Moved to 9, 6
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 18, 11
+[GAME] : Player botA has 15 points
+[TURN] : Moved to 18, 11
+[TURN] : 1 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botB at 8, 6
+[GAME] : Player botB has 7 points
+[TURN] : Moved to 8, 6
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botA at 18, 10
+[GAME] : Player botA has 16 points
+[TURN] : Moved to 18, 10
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 9, 6
+[GAME] : Player botB has 7 points
+[TURN] : Moved to 9, 6
+[TURN] : 1 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 18, 11
+[GAME] : Player botA has 16 points
+[TURN] : Moved to 18, 11
+[TURN] : 2 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 10, 6
+[GAME] : Player botB has 7 points
+[TURN] : Moved to 10, 6
+[TURN] : 3 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 18, 10
+[GAME] : Player botA has 16 points
+[TURN] : Moved to 18, 10
+[TURN] : 4 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botB at 11, 6
+[GAME] : Player botB has 8 points
+[TURN] : Moved to 11, 6
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 18, 11
+[GAME] : Player botA has 16 points
+[TURN] : Moved to 18, 11
+[TURN] : 1 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botB at 12, 6
+[GAME] : Player botB has 9 points
+[TURN] : Moved to 12, 6
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 18, 12
+[GAME] : Player botA has 16 points
+[TURN] : Moved to 18, 12
+[TURN] : 1 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 11, 6
+[GAME] : Player botB has 9 points
+[TURN] : Moved to 11, 6
+[TURN] : 2 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 17, 12
+[GAME] : Player botA has 16 points
+[TURN] : Moved to 17, 12
+[TURN] : 3 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 12, 6
+[GAME] : Player botB has 9 points
+[TURN] : Moved to 12, 6
+[TURN] : 4 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 18, 12
+[GAME] : Player botA has 16 points
+[TURN] : Moved to 18, 12
+[TURN] : 5 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 11, 6
+[GAME] : Player botB has 9 points
+[TURN] : Moved to 11, 6
+[TURN] : 6 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 18, 11
+[GAME] : Player botA has 16 points
+[TURN] : Moved to 18, 11
+[TURN] : 7 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 10, 6
+[GAME] : Player botB has 9 points
+[TURN] : Moved to 10, 6
+[TURN] : 8 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 18, 12
+[GAME] : Player botA has 16 points
+[TURN] : Moved to 18, 12
+[TURN] : 9 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 11, 6
+[GAME] : Player botB has 9 points
+[TURN] : Moved to 11, 6
+[TURN] : 10 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 17, 12
+[GAME] : Player botA has 16 points
+[TURN] : Moved to 17, 12
+[TURN] : 11 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 10, 6
+[GAME] : Player botB has 9 points
+[TURN] : Moved to 10, 6
+[TURN] : 12 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 18, 12
+[GAME] : Player botA has 16 points
+[TURN] : Moved to 18, 12
+[TURN] : 13 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 11, 6
+[GAME] : Player botB has 9 points
+[TURN] : Moved to 11, 6
+[TURN] : 14 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 18, 11
+[GAME] : Player botA has 16 points
+[TURN] : Moved to 18, 11
+[TURN] : 15 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 12, 6
+[GAME] : Player botB has 9 points
+[TURN] : Moved to 12, 6
+[TURN] : 16 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 18, 10
+[GAME] : Player botA has 16 points
+[TURN] : Moved to 18, 10
+[TURN] : 17 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botB at 12, 7
+[GAME] : Player botB has 10 points
+[TURN] : Moved to 12, 7
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botA at 19, 10
+[GAME] : Player botA has 17 points
+[TURN] : Moved to 19, 10
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 12, 6
+[GAME] : Player botB has 10 points
+[TURN] : Moved to 12, 6
+[TURN] : 1 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 18, 10
+[GAME] : Player botA has 17 points
+[TURN] : Moved to 18, 10
+[TURN] : 2 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 12, 7
+[GAME] : Player botB has 10 points
+[TURN] : Moved to 12, 7
+[TURN] : 3 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 18, 11
+[GAME] : Player botA has 17 points
+[TURN] : Moved to 18, 11
+[TURN] : 4 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 12, 6
+[GAME] : Player botB has 10 points
+[TURN] : Moved to 12, 6
+[TURN] : 5 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 18, 12
+[GAME] : Player botA has 17 points
+[TURN] : Moved to 18, 12
+[TURN] : 6 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 12, 7
+[GAME] : Player botB has 10 points
+[TURN] : Moved to 12, 7
+[TURN] : 7 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 18, 11
+[GAME] : Player botA has 17 points
+[TURN] : Moved to 18, 11
+[TURN] : 8 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botB at 12, 8
+[GAME] : Player botB has 11 points
+[TURN] : Moved to 12, 8
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 18, 10
+[GAME] : Player botA has 17 points
+[TURN] : Moved to 18, 10
+[TURN] : 1 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 12, 7
+[GAME] : Player botB has 11 points
+[TURN] : Moved to 12, 7
+[TURN] : 2 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 18, 11
+[GAME] : Player botA has 17 points
+[TURN] : Moved to 18, 11
+[TURN] : 3 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 12, 8
+[GAME] : Player botB has 11 points
+[TURN] : Moved to 12, 8
+[TURN] : 4 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 18, 12
+[GAME] : Player botA has 17 points
+[TURN] : Moved to 18, 12
+[TURN] : 5 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 12, 7
+[GAME] : Player botB has 11 points
+[TURN] : Moved to 12, 7
+[TURN] : 6 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 17, 12
+[GAME] : Player botA has 17 points
+[TURN] : Moved to 17, 12
+[TURN] : 7 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 12, 8
+[GAME] : Player botB has 11 points
+[TURN] : Moved to 12, 8
+[TURN] : 8 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 16, 12
+[GAME] : Player botA has 17 points
+[TURN] : Moved to 16, 12
+[TURN] : 9 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMadeAndPointScored
+[TURN] : botB at 12, 9
+[GAME] : Player botB has 12 points
+[TURN] : Moved to 12, 9
+[TURN] : 0 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 16, 13
+[GAME] : Player botA has 17 points
+[TURN] : Moved to 16, 13
+[TURN] : 1 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 11, 9
+[GAME] : Player botB has 12 points
+[TURN] : Moved to 11, 9
+[TURN] : 2 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 16, 12
+[GAME] : Player botA has 17 points
+[TURN] : Moved to 16, 12
+[TURN] : 3 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botB at 12, 9
+[GAME] : Player botB has 12 points
+[TURN] : Moved to 12, 9
+[TURN] : 4 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botA
+[MAZE] : ValidMaze
+[TURN] : MoveMade
+[TURN] : botA at 17, 12
+[GAME] : Player botA has 17 points
+[TURN] : Moved to 17, 12
+[TURN] : 5 / 100 turns without points
+[GAME] : ProceedToNextRound
+[GAME] : Received maze from player botB
+[MAZE] : InvalidMazeIllegalMoveMade
+[GAME] : Illegal move made by botB
+PLAYER:B,botB,12
+PLAYER:A,botA,17
+GAME: A,IllegalMazeState,110
