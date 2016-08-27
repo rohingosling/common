@@ -1,0 +1,2 @@
+cls
+trainer.exe
