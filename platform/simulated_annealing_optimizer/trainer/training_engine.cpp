@@ -1,4 +1,4 @@
-//------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
 // Project:	    Entelect 100k challenge.
 // Application: Agent Training Engine
 // Class:	    TrainingEngine
@@ -10,7 +10,7 @@
 //
 //   Training engine responsible for training an agent to compete in the Entelect 100k challenge.
 //
-//------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #include "stdafx.h"
 #include "training_engine.h"
@@ -29,23 +29,23 @@
 using namespace std;
 using namespace std::chrono;	// We will be using some timming functions for measurement.
 
-//--------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
 // Constructor 1/1
-//--------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 TrainingEngine::TrainingEngine ( int argc, char* argv [] ) : ConsoleApplication { argc, argv }
 {
 }
 
-//--------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
 // Destructor
-//--------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 TrainingEngine::~TrainingEngine ()
 {
 }
 
-//------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
 // FUNCTION:
 //
 // - ExecuteCommandInterpreter
@@ -77,7 +77,7 @@ TrainingEngine::~TrainingEngine ()
 //
 // - The apropriate commands, as defined in a derived class, have been executed.
 //
-//------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 void TrainingEngine::command_interpreter ( vector <string> command_line ) 
 {
@@ -117,7 +117,7 @@ void TrainingEngine::command_interpreter ( vector <string> command_line )
 	}
 }
 
-//------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 void TrainingEngine::test_1 ()
 {
@@ -148,7 +148,7 @@ void TrainingEngine::test_1 ()
 	cout << "[APPLICATION] ms      = " << StaticUtility::time_to_milliseconds ( time)                          << endl;
 }
 
-//------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
 // FUNCTION:
 //
 // - initialize_solution
@@ -174,7 +174,7 @@ void TrainingEngine::test_1 ()
 //
 // - The input solutions has been optimized.
 //
-//------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 TrainingEngine::SolutionSE TrainingEngine::initialize_solution ( SolutionSE& solution )
 {
@@ -233,7 +233,46 @@ TrainingEngine::SolutionSE TrainingEngine::initialize_solution ( SolutionSE& sol
 	return solution;
 }
 
-//------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
+// FUNCTION:
+//
+// - compute_insulated_temperature
+//
+// DESCRIPTION:
+//
+// - Insulate the temperature in order to prevent runaway energy transfer. 
+//
+// ARGUMENTS:
+//
+// - temperature
+//   Input temperature. 
+//
+// - temperature_min
+//   Minimum temperature. 
+//
+// - cooling_velocity
+//   The rate at which colling may occur.
+//   - The slower the cooling velocity, the longer the system remains in a high energy state, effectivly alowing the algorythm to search the problem space
+//     for a longer period of time. The algorythm will converge to a beter solution, after a longer training period.
+//   - The faster the cooling velocity, the less time the algorythm spends searching the problem space. The algorythm will converge to a less optimal
+//     solution, over a shorter training period.
+//
+// - temperature_scale
+//   Controls the energy input to the system.
+//
+// RETURN VALUE:
+//
+// - The insulated transformation of the input argument 'temperature'.
+//
+// PRE-CONDITIONS:
+//
+// - N/A
+//   
+// POST-CONDITIONS:
+//
+// - The insulated transformation of the input argument 'temperature', is returned.
+//
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 double TrainingEngine::compute_insulated_temperature ( double temperature, double temperature_min, double cooling_velocity, double temperature_scale )
 {
@@ -254,7 +293,42 @@ double TrainingEngine::compute_insulated_temperature ( double temperature, doubl
 	return insulated_temperature;
 }
 
-//------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
+// FUNCTION:
+//
+// - compute_exploitation_probability
+//
+// DESCRIPTION:
+//
+// - The exploitation probability is computed to give the algorythm a share of itterations, that is can use to further refine the best solution
+//   discovered  so far.
+//
+// - The exploitation condition is a non-standard extention to the standard version of the simulated annealing algorythm.
+//
+// ARGUMENTS:
+//
+// - k
+//   Normalized itteration index. Specifies how far along in the training schedule we are.
+//
+// - v
+//   Exploitation velocity.
+//
+// - p_max
+//   Pamximum probability.
+//
+// RETURN VALUE:
+//
+// - The insulated transformation of the input argument 'temperature'.
+//
+// PRE-CONDITIONS:
+//
+// - N/A
+//   
+// POST-CONDITIONS:
+//
+// - A stochastic probability is computed, that will be used by the algorythm to descide whether or not to perform best solution refinement or not.
+//
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 double TrainingEngine::compute_exploitation_probability ( double k, double v, double p_max )
 {
@@ -269,7 +343,38 @@ double TrainingEngine::compute_exploitation_probability ( double k, double v, do
 	return p;
 }
 
-//------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
+// FUNCTION:
+//
+// - generate_candidate_solution
+//
+// DESCRIPTION:
+//
+// - Configure a new candidate solution with a hypothesus, based on the current temperature of the solution system.
+//
+// - The higher the temperature, the wider the rxploritary hypothesis range will be.
+//
+// ARGUMENTS:
+//
+// - solution
+//   Solution object to configure with candidate parameters.
+//
+// - insulated_temperature
+//   Current temperature of the solution system.
+//
+// RETURN VALUE:
+//
+// - Configured solution object.
+//
+// PRE-CONDITIONS:
+//
+// - The solution object 'solution' should be initialized before being passed in.
+//   
+// POST-CONDITIONS:
+//
+// - The solution object 'solution' is configured with the new candidate solution parameters.
+//
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 TrainingEngine::SolutionSE TrainingEngine::generate_candidate_solution ( const SolutionSE& solution, double insulated_temperature )
 {
@@ -301,14 +406,79 @@ TrainingEngine::SolutionSE TrainingEngine::generate_candidate_solution ( const S
 	return candidate_solution;
 }
 
-//------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
+// FUNCTION:
+//
+// - compute_solution_energy
+//
+// DESCRIPTION:
+//
+// - Computes the energy moment of the current solution.
+//
+// - For most applications, this will simply be a wrapper for the algorythm's optimization cost function. However, more sophisicated energy computations
+//   over and abouve the cost function may be implemented.
+//
+// ARGUMENTS:
+//
+// - solution
+//   A solution object from which to compute the soltion energy.
+//
+// RETURN VALUE:
+//
+// - Normalized real value in the range [0.0..1.0], representing the solution energy.
+//
+// PRE-CONDITIONS:
+//
+// - The solution object should be initialized before being passed in.
+//   
+// POST-CONDITIONS:
+//
+// - The solution energy of the solution energy of the input solution has been computed and returned to the caller.
+//
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 double TrainingEngine::compute_solution_energy ( SolutionSE& solution )
 {	
 	return solution.compute_cost ();
 }
 
-//------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
+// FUNCTION:
+//
+// - compute_acceptance_probability
+//
+// DESCRIPTION:
+//
+// - Acceptance function used to compare a candidate solution's energy with a a target solution energy level, in order to determin if the candidate solution
+//   has less energy than the targe solution. The caller would use this function to determine if the candidate solution should be accepted as the next
+//   best solution.
+//
+// - The target solution energy is usualy populated with the energy level of the current best soltion.
+//
+// ARGUMENTS:
+//
+// - solution_energy
+//   The target solution energy. Usualy set to the solution energy of the best solution so far.
+//
+// - candidate_solution_energy
+//   The solution energy of a candidate soltion we would like to compare with the target solution.
+//
+// - temperature
+//   The current system temperature. This will be used as the probability threshold below which the acceptance probability will be 0.0.
+//
+// RETURN VALUE:
+//
+// - Candidate solution probability.
+//
+// PRE-CONDITIONS:
+//
+// - N/A
+//   
+// POST-CONDITIONS:
+//
+// - The candidate soltion probability has been computed, and returned to the caller.
+//
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 double TrainingEngine::compute_acceptance_probability ( double solution_energy, double candidate_solution_energy, double temperature )
 {
@@ -335,7 +505,35 @@ double TrainingEngine::compute_acceptance_probability ( double solution_energy, 
 	return p;
 }
 
-//------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
+// FUNCTION:
+//
+// - compute_temperature
+//
+// DESCRIPTION:
+//
+// - Compute the system temperarute 
+//
+// - xxx
+//
+// ARGUMENTS:
+//
+// - k
+//   Normalized itteration index. Specifies how far along in the training schedule we are.
+//
+// RETURN VALUE:
+//
+// - The temperature of the system, based on how far into the straining/cooling schedule we are.
+//
+// PRE-CONDITIONS:
+//
+// - N/A
+//   
+// POST-CONDITIONS:
+//
+// - A temperature based on where we are in the cooling schedule has been computed and returned to the caller.
+//
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 double TrainingEngine::compute_temperature ( double k )
 {
@@ -350,7 +548,32 @@ double TrainingEngine::compute_temperature ( double k )
 	return t;
 }
 
-//------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
+// FUNCTION:
+//
+// - optimize
+//
+// DESCRIPTION:
+//
+// - Implementaion of standard Simulated Annealing, extended to support late quatum exploitation.
+//
+// ARGUMENTS:
+//
+// - N/A
+//
+// RETURN VALUE:
+//
+// - N/A
+//
+// PRE-CONDITIONS:
+//
+// - The input data file must exist before calling optimize(). 
+//   
+// POST-CONDITIONS:
+//
+// - An optimized solution has been found.
+//
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 void TrainingEngine::optimize ()
 {
@@ -545,7 +768,33 @@ void TrainingEngine::optimize ()
 	data_file.close  ();
 }
 
-//------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
+// FUNCTION:
+//
+// - xxx
+//
+// DESCRIPTION:
+//
+// - xxx
+//
+// ARGUMENTS:
+//
+// - xxx
+//   xxx
+//
+// RETURN VALUE:
+//
+// - xxx
+//
+// PRE-CONDITIONS:
+//
+// - xxx
+//   
+// POST-CONDITIONS:
+//
+// - xxx
+//
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 void TrainingEngine::write_csv_header (	string file_name )
 {
@@ -570,7 +819,33 @@ void TrainingEngine::write_csv_header (	string file_name )
 	file.close ();
 }
 
-//------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
+// FUNCTION:
+//
+// - xxx
+//
+// DESCRIPTION:
+//
+// - xxx
+//
+// ARGUMENTS:
+//
+// - xxx
+//   xxx
+//
+// RETURN VALUE:
+//
+// - xxx
+//
+// PRE-CONDITIONS:
+//
+// - xxx
+//   
+// POST-CONDITIONS:
+//
+// - xxx
+//
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 void TrainingEngine::write_itteration_results ( string file_name, long long time, double p_exploit, double solution, double best_solution )
 {
@@ -595,7 +870,33 @@ void TrainingEngine::write_itteration_results ( string file_name, long long time
 	file.close ();
 }
 
-//------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
+// FUNCTION:
+//
+// - xxx
+//
+// DESCRIPTION:
+//
+// - xxx
+//
+// ARGUMENTS:
+//
+// - xxx
+//   xxx
+//
+// RETURN VALUE:
+//
+// - xxx
+//
+// PRE-CONDITIONS:
+//
+// - xxx
+//   
+// POST-CONDITIONS:
+//
+// - xxx
+//
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 void TrainingEngine::write_logfile ( string file_name, long long time, double data )
 {
@@ -637,7 +938,33 @@ void TrainingEngine::write_logfile ( string file_name, long long time, double da
 	cout << endl;
 }
 
-//------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
+// FUNCTION:
+//
+// - xxx
+//
+// DESCRIPTION:
+//
+// - xxx
+//
+// ARGUMENTS:
+//
+// - xxx
+//   xxx
+//
+// RETURN VALUE:
+//
+// - xxx
+//
+// PRE-CONDITIONS:
+//
+// - xxx
+//   
+// POST-CONDITIONS:
+//
+// - xxx
+//
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 void TrainingEngine::write_heart_beat ( string file_name, long long time, long long eta, long long iteration, long long iteration_sample )
 {
@@ -667,7 +994,33 @@ void TrainingEngine::write_heart_beat ( string file_name, long long time, long l
 	cout << endl;
 }
 
-//------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
+// FUNCTION:
+//
+// - xxx
+//
+// DESCRIPTION:
+//
+// - xxx
+//
+// ARGUMENTS:
+//
+// - xxx
+//   xxx
+//
+// RETURN VALUE:
+//
+// - xxx
+//
+// PRE-CONDITIONS:
+//
+// - xxx
+//   
+// POST-CONDITIONS:
+//
+// - xxx
+//
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 void TrainingEngine::clear_file ( string file_name )
 {
@@ -676,7 +1029,33 @@ void TrainingEngine::clear_file ( string file_name )
 	file.close ();
 }
 
-//------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
+// FUNCTION:
+//
+// - xxx
+//
+// DESCRIPTION:
+//
+// - xxx
+//
+// ARGUMENTS:
+//
+// - xxx
+//   xxx
+//
+// RETURN VALUE:
+//
+// - xxx
+//
+// PRE-CONDITIONS:
+//
+// - xxx
+//   
+// POST-CONDITIONS:
+//
+// - xxx
+//
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 void TrainingEngine::print_program_info ()
 {
@@ -688,5 +1067,31 @@ void TrainingEngine::print_program_info ()
 	cout << endl;
 }
 
-//------------------------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
+// FUNCTION:
+//
+// - xxx
+//
+// DESCRIPTION:
+//
+// - xxx
+//
+// ARGUMENTS:
+//
+// - xxx
+//   xxx
+//
+// RETURN VALUE:
+//
+// - xxx
+//
+// PRE-CONDITIONS:
+//
+// - xxx
+//   
+// POST-CONDITIONS:
+//
+// - xxx
+//
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
